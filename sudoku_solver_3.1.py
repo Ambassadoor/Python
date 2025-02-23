@@ -29,7 +29,7 @@ Created on Tue May  3 18:18:39 2022
 
 # The sudoku square is traditionally broken into three catagories; 9 3x3 boxes, 9 rows, and 9 columns. This program however breaks it down into 
 # four catagories. Large rows, small rows, large columns, and small columns. The large rows each contain three small rows, and the large columns
-# each contain three small columns. As arrays begin with 0, each catagory consist of value 0,1 and 2 i.e. Big row 0, big row 1, big row 3 etc. In the
+# each contain three small columns. As arrays begin with 0, each catagory consist of value 0,1 and 2 i.e. Big row 0, big row 1, big row 2 etc. In the
 # format of big row, little row, big column, little column this results in four digit codes, with the top left cell being 0000 and the bottom right
 # cell being 2222. These codes are the ternary (base3) versions of the cell number they coincide with. If the top left cell is cell 0, the ternary
 # is 0000, if the bottom right cell is 80, the ternary is 2222. Additionally the ternary codes can be used to determine the box, row and column numbers. By
